@@ -239,4 +239,5 @@ class LineBotApi(object):
             raise LineBotApiError(response.status_code, error)
 
     def create_message(self):
-        return [{"packageId":"2", "stickerId":"172", "type":"sticker"}, {"text":"提姆棒棒", "type":"text"}]
+        #return [{"packageId":"2", "stickerId":"172", "type":"sticker"}, {"text":"提姆棒棒", "type":"text"}]
+        return [{"type":"join"}]
